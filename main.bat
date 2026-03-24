@@ -2,7 +2,7 @@
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 echo ================================
-echo  GitHub Folder Uploader (Safe)
+echo  GitHub Folder Uploader
 echo ================================
 set /p folder="업로드할 폴더 전체 경로를 입력하세요: "
 if not exist "!folder!" (
@@ -51,5 +51,5 @@ if "!choice!"=="1" (
   echo 작업 취소.
 )
 echo ================================
-echo 완료!
+echo 작업 완료.
 pause
